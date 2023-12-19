@@ -57,6 +57,7 @@ export function HomePage() {
     <PageContainer className={styles.homePage}>
       <Container>
         <div className={styles.hero}>
+          <div display="none">cyzy-custom-client-docker</div>
           {auth.isSignedIn ? (
             <div className={styles.signInContainer}>
               <span>
